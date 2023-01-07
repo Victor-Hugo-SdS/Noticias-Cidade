@@ -71,3 +71,53 @@ body.fotos #navigation a#fotos
     background: #de003e;
     cursor: text;
 }
+
+/* layout*/
+
+#container {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#last-interview {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: #b10333;
+}
+
+#two-columns #last-interview {
+    width: 555px;
+}
+
+#one-columns #last-interview {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#highlights {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: yellow;
+}
+
+#interviews {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: rosybrown;
+}
+
+/**footer*/
+#container-footer {
+    width:100vw;
+    background: #294c71;
+    padding: 20px;
+}
+
+#footer {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
