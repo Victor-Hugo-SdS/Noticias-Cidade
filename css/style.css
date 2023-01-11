@@ -30,6 +30,13 @@ header, main, footer {
 
 /*navigation bar*/
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
 #header-nav nav ul {
     margin-top: 30px;
     background: #b10333;
@@ -83,7 +90,6 @@ body.fotos #navigation a#fotos
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: #b10333;
 }
 
 #two-columns #last-interview {
@@ -99,17 +105,106 @@ body.fotos #navigation a#fotos
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: yellow;
 }
 
 #interviews {
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-    background: rosybrown;
 }
 
-/**footer*/
+/*box*/
+.box {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.box-contents {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*lateral menu*/
+#interviews ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    list-style: none;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#interviews ul a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/*formatting form*/
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 120px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+/*images*/
+
+img.main-image {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.interview h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.highlights h3 {
+    background: #de003e;
+    color: #000;
+}
+
+/*news list*/
+
+#news-list li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+/*footer*/
 #container-footer {
     width:100vw;
     background: #294c71;
