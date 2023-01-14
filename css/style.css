@@ -96,7 +96,7 @@ body.fotos #navigation a#fotos
     width: 555px;
 }
 
-#one-columns #last-interview {
+#one-column #last-interview {
     width: 750px;
     margin: 0 0 20px 0;
 }
@@ -201,7 +201,31 @@ h3 {
 #news-list li {
     padding: 2px;
     border-bottom: 1px solid #ccc;
-    height: 65px;
+    height: 62px;
+}
+
+#news-list li a img {
+    float: left;
+    margin: 5px;
+}
+
+#news-list li a {
+    text-decoration: none;
+}
+
+#news-list li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#news-list li a p {
+    font-size: 0.7em;
+}
+
+#news-list li:hover {
+    background: #eee;
+    cursor: pointer;
 }
 
 /*footer*/
